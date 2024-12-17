@@ -6,7 +6,7 @@
 
 El proyecto está organizado de la siguiente manera:
 
-my-project/ \n
+my-project/
 ├── data/ \n
 │   ├── raw/                  # Archivos de datos originales \n
 │   │   └── cryptos_data.csv  # CSV con los datos obtenidos de la API \n
