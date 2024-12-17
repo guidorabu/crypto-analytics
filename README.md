@@ -6,31 +6,18 @@
 
 El proyecto está organizado de la siguiente manera:
 
-my-project/
-<<<<<<< HEAD
-|── data/
-|   |── raw/                  # Archivos de datos originales
-|   |   └── cryptos_data.csv  # CSV con los datos obtenidos de la API
-|   └── processed/            # Archivos de datos procesados
-|── notebooks/                # Notebooks de análisis
-|── scripts/                  # Carpeta para scripts de procesamiento y análisis de datos
-|   |── fetch_data.py         # Obtiene los datos de la API
-|   └── process_data.py       # Procesa los datos obtenidos
-|── requirements.txt          # Dependencias del proyecto
-|── README.md                 # Documentación del proyecto
-=======
-├── data/ \n
-│   ├── raw/                  # Archivos de datos originales \n
-│   │   └── cryptos_data.csv  # CSV con los datos obtenidos de la API \n
-│   └── processed/            # Archivos de datos procesados \n
-├── notebooks/                # Notebooks de análisis
-├── scripts/                  # Carpeta para scripts de procesamiento y análisis de datos
-│   ├── fetch_data.py         # Obtiene los datos de la API
-│   └── process_data.py       # Procesa los datos obtenidos
-├── requirements.txt          # Dependencias del proyecto
-├── README.md                 # Documentación del proyecto
->>>>>>> 99e85a0eb378e6abce387d10015f4eec61747b3f
-└── .gitignore                # Archivos que deben ser ignorados por Git
+    my-project/
+    ├── data/
+    │   ├── raw/                  # Archivos de datos originales
+    │   │   └── cryptos_data.csv  # CSV con los datos obtenidos de la API
+    │   └── processed/            # Archivos de datos procesados
+    ├── notebooks/                # Notebooks de análisis
+    ├── scripts/                  # Carpeta para scripts de procesamiento y análisis de datos
+    │   ├── fetch_data.py         # Script que obtiene los datos de la API
+    │   └── process_data.py       # Script que procesa los datos obtenidos
+    ├── requirements.txt          # Dependencias del proyecto
+    ├── README.md                 # Documentación del proyecto
+    └── .gitignore                # Archivos que deben ser ignorados por Git
 
 ## Descripción de los Scripts
 
