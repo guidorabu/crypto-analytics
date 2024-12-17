@@ -36,4 +36,5 @@ Tener las siguientes librerías instaladas:
 
 Puedes instalar las dependencias con el siguiente comando:
 
+```bash
 pip install -r requirements.txt
