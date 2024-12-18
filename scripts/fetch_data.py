@@ -1,5 +1,6 @@
 import requests
 import pandas as pd
+from datetime import datetime
 
 # Función para obtener datos de CoinGecko
 def obtener_datos_criptomonedas():
@@ -7,7 +8,7 @@ def obtener_datos_criptomonedas():
     params = {
         'vs_currency': 'usd',
         'order': 'market_cap_desc',
-        'per_page': 10,
+        'per_page': 100,
         'page': 1
     }
     
@@ -26,6 +27,9 @@ def obtener_datos_criptomonedas():
         print("Datos obtenidos y guardados con éxito.")
     else:
         print("Error al obtener datos de la API.")
+
+with open('data/raw/log.txt', 'a') as log_file:
+    log_file.write(f'Datos actualizados el {datetime.now()}\n')
 
 # Ejecutamos la función
 if __name__ == '__main__':
